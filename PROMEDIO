@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std; 
+int main(){
+
+	int a,b,c,d,e,suma,promedio;
+	cout<<"Bienvenido a esta rutina la cual calculara tu promedio"<<endl;
+	cout<<"Por favor digita la primera evaluacion"<<endl;
+	cin>> a;
+	cout<<"Porfavor digita la segunda evaluacion"<<endl;
+	cin>> b;
+	cout<<"Porfavor digita la tercera evaluacion"<<endl;
+	cin>> c; 
+	cout<<"Porfavor digitaliza la cuarta evaluacion"<<endl;
+	cin>>d;
+	cout<<"Porfavor digita la quinta evaluacion"<<endl;
+	cin>>e;
+	promedio =(a+b+c+d+e)/5;
+	cout<<"Tu promedio general es de:"<<promedio<<endl;
+	cout<<"gracias por usar este programa";
+	return 0;
