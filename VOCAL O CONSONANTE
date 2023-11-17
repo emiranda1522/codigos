@@ -1,0 +1,14 @@
+||#include <iostream>
+using namespace std;
+int main (){
+char vocal;
+cout<<"En este prgrama podras identificar si tu caractér es vocal o consonante";
+cout<<"Digita el primer caractér";
+cin>>vocal;
+if(vocal == ´a´ or vocal == ´e´ or vocal == ´i´ or vocal == ´o´ == or vocal == ´u´)¨{
+  cout <<"vocal";
+}
+else{
+cout<<"no es vocal";
+   }
+}
